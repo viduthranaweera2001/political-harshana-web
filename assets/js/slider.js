@@ -9,10 +9,10 @@ var swiper = new Swiper(".header-slide-content", {
     sticky: true,
   },
 
-  speed: 500,
-  autoplay: {
-    delay: 4000,
-  },
+  // speed: 600,
+  // autoplay: {
+  //   delay: 4000,
+  // },
   centerSlide: "true",
   fade: "true",
   grabCursor: "true",
