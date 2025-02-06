@@ -308,15 +308,31 @@
 
   .header-section .container {
     padding-left: 0;
-    top: 42%;
+    top: 47%;
   }
 
-  .header-section .headersideimg{
+  .header-section .headersideimg {
     transform: translateX(150px);
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .header-section .headersideimg {
+    transform: translateX(0) !important;
+  }
+
+  .header-section .container {
+    padding-left: 0;
+    top: 55%;
+  }
+}
+
 @media (max-width: 576px) {
+  .header-section .container {
+    padding-left: 0;
+    top: 60%;
+  }
+
   .red-bg {
     width: 100%;
     left: 0;
