@@ -162,7 +162,7 @@ ol {
 /* Header Section */
 .header-section .container {
   position: absolute;
-  top: 60%;
+  top: 62%;
   left: 50%;
   /* padding-left: 6.5rem; */
   transform: translate(-50%, -50%);
@@ -553,7 +553,7 @@ box-shadow: 0 2px 30px #9d1b26c8;
 }
 
 .videoGallery-section {
-  margin-top: 10rem;
+  margin-top: 8rem;
   padding-top: 7rem;
   padding-bottom: 7rem;
   background-color: #F9F8FF;
