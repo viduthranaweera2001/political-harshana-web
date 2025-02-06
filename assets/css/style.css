@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@import url(../fonts/Aloka.ttf);
+/* @import url(../fonts/Aloka.ttf); */
 
 @font-face {
   font-family: 'UN Bindumathi';
@@ -8,8 +8,14 @@
 }
 
 @font-face {
-  font-family: 'sinhala-fontV2';
-  src: url('/assets/fonts/Aloka.ttf') format('truetype');
+  font-family: 'apex-font';
+  src: url('../fonts/apex06.eot');  /* IE9 Compat Modes */
+
+  src: url('../assets/fonts/apex06.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/apex06.woff') format('woff'), /* IE6-IE8 */
+    url('../fonts/apex06.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/apex06.woff2') format('woff2'),
+    url('../fonts/apex06.svg#apex06') format('svg'); /* Legacy iOS */
 }
 
 * {
@@ -60,7 +66,7 @@ a {
   text-decoration: none !important;
 }
 
-p{
+p {
   font-family: 'UN Bindumathi';
 }
 
@@ -213,15 +219,15 @@ ol {
 
 .header-section .signature h2 {
   margin-bottom: 1rem;
-  font-family: 'sinhala-fontV2' !important;
+  font-family: 'apex-font' !important;
 }
 
-/* .header-section .signature path {
+.header-section .signature path {
   stroke-dasharray: 4031.51171875px;
   stroke-dashoffset: 4031.51171875px;
   animation: LineAnimation 3s ease forwards;
   animation-delay: 1s;
-} */
+}
 
 @keyframes LineAnimation {
   to {
@@ -372,8 +378,8 @@ ol {
   transition: all 0.2s ease-in-out;
 }
 
-.service-card:hover{
- scale: 1.03;
+.service-card:hover {
+  scale: 1.03;
   box-shadow: 0 2px 30px #1b0f5cc8;
 }
 
@@ -382,7 +388,7 @@ ol {
 }
 
 .service-card.red:hover {
-box-shadow: 0 2px 30px #9d1b26c8;
+  box-shadow: 0 2px 30px #9d1b26c8;
 }
 
 .service-icon {
@@ -549,7 +555,7 @@ box-shadow: 0 2px 30px #9d1b26c8;
   color: #505A6C;
   font-size: 16px;
   line-height: 1.6;
-   font-family: 'UN Bindumathi';
+  font-family: 'UN Bindumathi';
 }
 
 .videoGallery-section {
@@ -596,7 +602,7 @@ box-shadow: 0 2px 30px #9d1b26c8;
   object-fit: cover;
 }
 
-.videoGallery-section .main-video img{
+.videoGallery-section .main-video img {
   width: 100%;
   height: auto;
   object-fit: cover;
